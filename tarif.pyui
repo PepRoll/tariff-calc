@@ -1,0 +1,312 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {320, 480}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{15, 80}, {124, 45}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "placeholder" : "Холодная вода",
+          "flex" : "HRTB",
+          "font_size" : 15,
+          "frame" : "{{49, 179}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "B40776D2-D3B4-4D10-BAE6-2CE2859AC823",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "counter_cold_water",
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{15, 133}, {121, 45}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "placeholder" : "Горячая вода",
+          "flex" : "HRTB",
+          "font_size" : 15,
+          "frame" : "{{49, 179}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "01FD1380-F5D5-43C8-BFE2-0B4759CFC3E0",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "counter_warm_water",
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{15, 192}, {121, 45}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "placeholder" : "Электричество",
+          "flex" : "HRTB",
+          "font_size" : 15,
+          "frame" : "{{49, 179}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "0A47A6EB-6394-49D5-8035-3AA76E5498D6",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "counter_electric",
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{175, 80}, {125, 33}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "placeholder" : "Холодная вода",
+          "flex" : "HLTB",
+          "font_name" : "<System>",
+          "frame" : "{{59, 177}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "9B246550-198D-4B0A-9C11-95FB3D497613",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_size" : 15,
+          "name" : "tarif_cold_water"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{175, 121}, {125, 32}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "placeholder" : "Горячая вода",
+          "flex" : "HLTB",
+          "font_name" : "<System>",
+          "frame" : "{{59, 177}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "7768139B-9560-4494-B82A-4468C74BDD62",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_size" : 15,
+          "name" : "tarif_warm_water"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{175, 161}, {125, 32}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "placeholder" : "Водоотвод",
+          "flex" : "HLTB",
+          "font_name" : "<System>",
+          "frame" : "{{59, 177}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "46A551B7-14C6-4DEE-B838-7B0B18F9121E",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_size" : 15,
+          "name" : "tarif_water"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{175, 201}, {125, 36}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "placeholder" : "Электричество",
+          "flex" : "HLTB",
+          "font_name" : "<System>",
+          "frame" : "{{59, 177}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "C2DE020E-500F-4D43-AD17-4D4E909BCB90",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_size" : 15,
+          "name" : "tarif_electric"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{214, 409}, {86, 71}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "uuid" : "24176E3D-E703-4625-BDAC-63FD3FA809AA",
+          "font_size" : 17,
+          "corner_radius" : 0,
+          "background_color" : "RGBA(0.150000,1.000000,0.433333,1.000000)",
+          "frame" : "{{119, 177}, {80, 32}}",
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "border_width" : 2,
+          "border_color" : "RGBA(0.400000,1.000000,0.600000,1.000000)",
+          "title" : "Calc",
+          "action" : "calculate",
+          "class" : "Button",
+          "name" : "calculate",
+          "flex" : "WHRT"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{116, 409}, {83, 71}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "uuid" : "90CF1C67-4FC7-46E8-B903-9B7BBB468398",
+          "font_size" : 17,
+          "corner_radius" : 0,
+          "background_color" : "RGBA(0.200000,0.733333,1.000000,1.000000)",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "border_width" : 0,
+          "border_color" : "RGBA(0.550000,0.850000,1.000000,1.000000)",
+          "title" : "Save",
+          "action" : "save",
+          "class" : "Button",
+          "name" : "save",
+          "flex" : "WHLRTB"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{0, 263}, {320, 133}}",
+        "class" : "TextView",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "uuid" : "2F8A2FD5-5122-475D-A1B5-F18999A8443D",
+          "font_size" : 17,
+          "corner_radius" : 0,
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{60, 140}, {200, 200}}",
+          "tint_color" : "RGBA(0.683962,0.683962,0.683962,1.000000)",
+          "editable" : false,
+          "border_width" : 1,
+          "border_color" : "RGBA(1.000000,0.749020,0.250980,1.000000)",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "text" : "",
+          "font_name" : "<System>",
+          "spellchecking_type" : "default",
+          "class" : "TextView",
+          "name" : "view",
+          "flex" : "WHLRTB"
+        }
+      },
+      {
+        "selected" : true,
+        "frame" : "{{15, 409}, {86, 71}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "uuid" : "7F1151EF-BF50-4DD7-B7DA-F3B9DD62E411",
+          "flex" : "WHLRTB",
+          "corner_radius" : 0,
+          "background_color" : "RGBA(1.000000,0.749020,0.250980,1.000000)",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "border_width" : 0,
+          "title" : "Copy",
+          "action" : "copy",
+          "alpha" : 1,
+          "class" : "Button",
+          "name" : "copy",
+          "font_size" : 17
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{0, 0}, {320, 61}}",
+        "class" : "View",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "frame" : "{{110, 190}, {100, 100}}",
+          "background_color" : "RGBA(1.000000,0.749020,0.250980,1.000000)",
+          "class" : "View",
+          "name" : "view1",
+          "uuid" : "50C3DC81-FC60-49D8-B3C1-797A3045A1EC"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{15, 16}, {124, 45}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "name" : "label1",
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "6A86E66A-34ED-44EC-B16B-E00FF9056DDE",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "ПОКАЗАНИЯ",
+          "font_size" : 18,
+          "font_name" : "AlNile-Bold"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{175, 16}, {125, 45}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_size" : 18,
+          "font_name" : "AlNile-Bold",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "C5E446D7-B012-4AAB-853B-77E3281BE3F8",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "ТАРИФ",
+          "name" : "label2",
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)"
+        }
+      }
+    ],
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    }
+  }
+]
